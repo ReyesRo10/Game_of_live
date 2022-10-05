@@ -189,7 +189,6 @@ function startButtonHandler() {
   if (playing) {
     playing = false;
     startButton.textContent = "continue";
-    //clearTimeout(timer);
   } else {
     playing = true;
     startButton.textContent = "Pause";
